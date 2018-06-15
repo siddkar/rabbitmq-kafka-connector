@@ -1,0 +1,11 @@
+spring:
+  profiles: dev
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+kafka:
+  producer:
+    brokerList: localhost:9092
+    topic: dell-kafka-topic
